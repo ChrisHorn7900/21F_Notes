@@ -87,7 +87,7 @@
 
 ### Die Yields
 
-    yield = 1/(1 + (defects per area * die area))^2
+    yield = 1 / (1 + (defects per area * die area))^2
 
 - assuming wafer yield is 100%
 - defects per sq cm is 0.03
@@ -95,7 +95,7 @@
 
 ### Die Costs
 
-    cost per die = cost per wafer/(dies per wafer * yield)
+    cost per die = cost per wafer / (dies per wafer * yield)
 
 - if the cost of a wafer is $5000, what is the cost of a 1x1 cm and 1.5x1.5 cm in the previous examples?
 - for 1x1 the cost:
